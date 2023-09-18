@@ -1,0 +1,8 @@
+[configuration]
+
+entry_symbol = "dman_gdextension_entry"
+compatibility_minimum = 4.1
+
+[libraries]
+
+windows.64 = "../dman-godot.dll"
