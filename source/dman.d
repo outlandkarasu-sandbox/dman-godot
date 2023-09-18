@@ -26,7 +26,7 @@ class Dman : GodotScript!CharacterBody3D
 	{
 		import godot.string : gs;
 
-		// 文字列リテラルを
+		// 文字列リテラルをGDExtensionの文字列に変換してデバッグ出力
 		print(gs!"Hello from Dman!");
 	}
 
