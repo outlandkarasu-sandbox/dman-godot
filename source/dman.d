@@ -15,7 +15,7 @@ class Dman : GodotScript!CharacterBody3D
 
 	/** 
 	回転スピード
-	/
+	*/
     private enum SPEED = 0.1;
 
 	/** 
