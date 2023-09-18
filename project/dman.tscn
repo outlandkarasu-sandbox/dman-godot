@@ -10,14 +10,15 @@ size = Vector3(1.51546, 3.68943, 0.414947)
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.3977)
 
-[node name="CharacterBody3D" type="CharacterBody3D" parent="."]
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="CharacterBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.87502, 0)
-mesh = ExtResource("1_biknk")
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D"]
-shape = SubResource("BoxShape3D_dojo3")
-
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(0.58842, -0.437704, 0.679835, 0, 0.840803, 0.541341, -0.808555, -0.318536, 0.494746, 2.78645, 2.57188, 2.32067)
+
+[node name="DmanBody3D" type="Dman" parent="."]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="DmanBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.87502, 0)
+mesh = ExtResource("1_biknk")
+skeleton = NodePath("")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="DmanBody3D"]
+shape = SubResource("BoxShape3D_dojo3")
