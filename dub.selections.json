@@ -1,0 +1,7 @@
+{
+	"fileVersion": 1,
+	"versions": {
+		"godot-dlang": "~godot-4.1",
+		"utf_bc": "0.2.1"
+	}
+}

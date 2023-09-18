@@ -8,5 +8,7 @@
 	},
 	"description": "A minimal D godot application",
 	"license": "MIT",
-	"name": "dman-godot"
+	"name": "dman-godot",
+	"targetType": "dynamicLibrary",
+	"dflags-windows-ldc": ["-dllimport=defaultLibsOnly"]
 }
