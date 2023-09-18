@@ -4,7 +4,7 @@ D言語くんモジュール
 module dman;
 
 import godot;
-import godot.engine : Engine;
+import godot.engine;
 import godot.characterbody3d : CharacterBody3D;
 
 /** 
