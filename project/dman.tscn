@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://cjunhyg03fvgo"]
+
+[ext_resource type="ArrayMesh" path="res://Dman_mesh.res" id="1_5v3vh"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_dojo3"]
+size = Vector3(1.51546, 3.68943, 0.414947)
+
+[node name="dman" type="Node3D"]
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="."]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CharacterBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.87502, 0)
+mesh = ExtResource("1_5v3vh")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D"]
+shape = SubResource("BoxShape3D_dojo3")
