@@ -1,0 +1,16 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/dman-godot
+dman-godot.so
+dman-godot.dylib
+dman-godot.dll
+dman-godot.a
+dman-godot.lib
+dman-godot-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst

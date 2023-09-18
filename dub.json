@@ -1,0 +1,12 @@
+{
+	"authors": [
+		"outlandkarasu"
+	],
+	"copyright": "Copyright © 2023, outlandkarasu",
+	"dependencies": {
+		"godot-dlang": "~godot-4.1"
+	},
+	"description": "A minimal D godot application",
+	"license": "MIT",
+	"name": "dman-godot"
+}
